@@ -1,5 +1,5 @@
 import React from "react";
-const NumberGrid = ({ selectedNumbers, onNumberClick }) => {
+export const NumberGrid = ({ selectedNumbers, onNumberClick }) => {
   return (
     <div className="number-grid">
       {[...Array(20).keys()].map((num) => {
@@ -17,4 +17,3 @@ const NumberGrid = ({ selectedNumbers, onNumberClick }) => {
     </div>
   );
 };
-export default NumberGrid;

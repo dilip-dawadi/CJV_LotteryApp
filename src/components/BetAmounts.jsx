@@ -1,5 +1,5 @@
 import React from "react";
-const BetAmounts = ({ onBetClick }) => {
+export const BetAmounts = ({ onBetClick }) => {
   const amounts = [1, 5, 10, 20];
   return (
     <div className="bet-amounts">
@@ -11,4 +11,3 @@ const BetAmounts = ({ onBetClick }) => {
     </div>
   );
 };
-export default BetAmounts;

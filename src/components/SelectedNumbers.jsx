@@ -1,5 +1,5 @@
 import React from "react";
-const SelectedNumbers = ({ selectedNumbers, totalBet }) => {
+export const SelectedNumbers = ({ selectedNumbers, totalBet }) => {
   return (
     <div className="selected-numbers">
       <h2>Numbers Selected</h2>
@@ -19,4 +19,3 @@ const SelectedNumbers = ({ selectedNumbers, totalBet }) => {
     </div>
   );
 };
-export default SelectedNumbers;
